@@ -10,7 +10,7 @@ Passos referentes à integração com o sistema de assintura para planos de reco
 ```
 $ composer require thallesdaniell/getnet-subscription"
 ```
-#### Exemplo de Assinatura 
+#### CRIAÇÃO DE ASSINATURA 
 
 ```php
 // 
@@ -103,7 +103,7 @@ $request = $transaction->toJSON();
 ```
 
 
-#### CANCELA PAGAMENTO (CRÉDITO e DÉBITO)
+#### CANCELAMENTO ASSINATURA
 ```php
 // Autenticação da API (client_id, client_secret, seller_id, env)
 $getnet = new Getnet($_ENV['GETNET_CLIENT_ID'], $_ENV['GETNET_CLIENT_SECRET'], $_ENV['GETNET_SELLER_ID'], $environment);
