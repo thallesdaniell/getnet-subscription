@@ -1,14 +1,14 @@
 ### GETNET SDK PHP - API v1
 E-commerce
 
-Todos os passos e processos referentes à integração com o sistema de captura e autorização de transações financeiras da Getnet via as funcionalidades da API.
+Passos referentes à integração com o sistema de assintura para planos de recorrências via as funcionalidades da API.
 
  Documentação oficial
 * https://api.getnet.com.br/v1/doc/api
 
 #### Composer
 ```
-$ composer require "brunopazz/getnet-sdk @dev"
+$ composer require thallesdaniell/getnet-subscription"
 ```
 #### Exemplo de Assinatura 
 
