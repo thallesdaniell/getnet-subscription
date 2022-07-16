@@ -1,0 +1,21 @@
+{
+  "name": "thallesdaniell/getnet-subscription",
+  "description": "SDK da plataforma digital da GETNET",
+  "minimum-stability": "stable",
+  "require": {
+    "php": ">=7.4",
+    "guzzlehttp/guzzle": "^7.4"
+  },
+  "autoload": {
+    "psr-4":{
+      "Getnet\\Subscription\\":"src//Subscription"
+    }
+  },
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Thalles Daniel",
+      "email": "thallesdaniell@hotmail.com"
+    }
+  ]
+}
